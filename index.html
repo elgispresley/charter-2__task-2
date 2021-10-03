@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./giphy/styles/index.css" />
+    <title>Search Gif APP</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__header-left">
+        <input  class="input_txt"  id="searchInput" type="text" placeholder="GIF name"/>
+		</div>
+		<div class="header__header-right">
+        <input type="number" placeholder="number" id="limit" />
+        <select name="" id="select-lang">
+			  <option value="">language</option>
+			  <option value="en">English</option>
+			  <option value="ru">Руссий</option>
+			</select>
+			<button class="button" id="searchBtn">Go!</button>
+		</div>
+	</header>
+	<div class="container">
+	  <div id="content"></div>
+	</div>
+  </body>
+  <script src="./scripts/http.js"></script>
+  <script src="./giphy/scripts/giphy.js"></script>
+</html>
