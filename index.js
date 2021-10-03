@@ -73,9 +73,5 @@ $searchInput.addEventListener("keydown", async function (event) {
     lang: $selectLang.value,
   });
 
-  showGifs(gifs);
 });
 
-//Полученый ответ
-
-//fetch
